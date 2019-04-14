@@ -20,3 +20,8 @@ $ serve build/site
    │                                                   │
    └───────────────────────────────────────────────────┘
 ```
+
+## Deploy 
+```
+mv build/site/ ../marzelwidmer.github.io/
+```
