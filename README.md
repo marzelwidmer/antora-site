@@ -2,7 +2,7 @@
 
 ## Build
 ```bash
-$ antora site.yml
+$ antora --clean --pull site.yml
 ```
 
 ## Serve
@@ -21,7 +21,7 @@ $ serve build/site
    └───────────────────────────────────────────────────┘
 ```
 
-## Deploy 
+## Deploy
 ```
 mv build/site/ ../marzelwidmer.github.io/
 ```

@@ -1,17 +1,23 @@
 site:
-  title: keepcalm.ch - c3sMonkey.ch
+  title: Marcel Widmer - keepcalm.ch - c3sMonkey.ch
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://marzelwidmer.github.io.
-  start_page: MongoDb configuration::index.adoc
+  start_page: RSocket Demo::index.adoc
 content:
   sources:
   # - url: https://github.com/marzelwidmer/antora-component-a.git
   #   branches: master
+
   # - url: https://github.com/marzelwidmer/antora-component-b.git
   #   branches: [v2.0, v1.0]
   #   start_path: docs
+
   - url: https://github.com/c3smonkey/openshift-mongodb.git
-    branches: master
+  # - url: ./../../c3smonkey/openshift-mongodb
+    start_path: docs
+
+  - url: https://github.com/marzelwidmer/rsocket-demo.git
+  # - url: ./../../git/rsocket-demo
     start_path: docs
 ui:
   bundle:
