@@ -23,5 +23,6 @@ $ serve build/site
 
 ## Deploy
 ```
-mv build/site/ ../marzelwidmer.github.io/
+$ rm -rf ../marzelwidmer.github.io/site
+$ mv build/site/ ../marzelwidmer.github.io/
 ```
