@@ -4,6 +4,10 @@
 ```bash
 $ antora --clean --pull site.yml
 ```
+## Build with Docker
+```bash
+docker run -u $(id -u) -e HOME=/antora -v $PWD:/antora:Z --rm -t antora/antora site.yml
+```
 
 ## Serve
 ```bash
