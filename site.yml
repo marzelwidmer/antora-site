@@ -12,10 +12,6 @@ content:
   #   branches: [v2.0, v1.0]
   #   start_path: docs
 
-  - url: https://github.com/c3smonkey/openshift-mongodb.git
-  # - url: ./../../c3smonkey/openshift-mongodb
-    start_path: docs
-
   - url: https://github.com/marzelwidmer/rsocket-demo.git
   # - url: ./../../git/rsocket-demo
     start_path: docs
