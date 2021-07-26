@@ -1,10 +1,18 @@
 # Antora
 
+
+```bash
+brew install yarn 
+yarn global add @antora/cli@2.3
+yarn global add @antora/site-generator-default@2.3
+```
+
+
 ## Build
 ```bash
 $ antora --clean --pull site.yml
 ```
-## Build with Docker
+### Build with Docker
 ```bash
 docker run -u $(id -u) -e HOME=/antora -v $PWD:/antora:Z --rm -t antora/antora site.yml
 ```
